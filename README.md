@@ -19,7 +19,7 @@ When working on a project, you often need to create multiple files with similar 
 
 - Create your own [copasta config](#configuration) file in your project.
   - use [dynamic values](#dynamic-values) to make your templates more flexible.
-  - you can use the [copata playground](https://jacobra19.github.io/copasta/) to create your own templates and configurations.
+  - you can use the [copata playground](https://yakovify.github.io/copasta/) to create your own templates and configurations.
 - Run `npx copasta <template-name>` to generate the files.
 - Select which files you want to generate.
 - Files will be generated in the current working directory.
@@ -81,5 +81,5 @@ module.exports = {
 
 This project is a monorepo containing the following packages:
 
-- [copasta-cli](https://github.com/jacobra19/copasta/blob/master/packages/copasta-cli): The actual CLI tool. This is the npm package you will use to generate templates.
-- [playground-app](https://github.com/jacobra19/copasta/blob/master/packages/playground-app): A web app to create and test copasta configurations.
+- [copasta-cli](https://github.com/yakovify/copasta/blob/master/packages/copasta-cli): The actual CLI tool. This is the npm package you will use to generate templates.
+- [playground-app](https://github.com/yakovify/copasta/blob/master/packages/playground-app): A web app to create and test copasta configurations.
